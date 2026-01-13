@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
-import { Link } from "react-router-dom";
 
 const Index = () => {
   const categories = [
@@ -121,20 +120,6 @@ const Index = () => {
                 <Icon name="Phone" size={20} className="mr-2" />
                 Связаться с нами
               </a>
-            </Button>
-          </div>
-          
-          <div className="mt-6 pt-6 border-t border-border/50">
-            <Button 
-              size="lg" 
-              variant="secondary" 
-              className="w-full sm:w-auto"
-              asChild
-            >
-              <Link to="/email-preview">
-                <Icon name="Mail" size={20} className="mr-2" />
-                Посмотреть email-шаблон
-              </Link>
             </Button>
           </div>
         </div>
